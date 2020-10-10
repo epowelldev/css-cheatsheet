@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 main{
     display: flex;
     flex-direction: column;
@@ -35,4 +36,8 @@ main > section{
     main > section{
         width: 33.33%;
     }
+=======
+:root {
+    --accent-color: purple;
+>>>>>>> 53565fc036f91fbcdc1866670f8aba150c2122e0
 }
