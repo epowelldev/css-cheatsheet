@@ -1,0 +1,38 @@
+main{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+}
+
+main > section{
+    flex: 1;
+    width: 100%;
+    height: 50%;
+}
+
+/* At size 768px and above, the app should resemble the following image:
+
+![On a desktop, the application displays three CSS code snippets per row.](./Images/01-app-desktop.png)*/
+@media screen and (min-width: 768px) {
+    main{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    main > section{
+        width: 50%;
+        
+    }
+}
+
+/* At size 992px and above, the app should resemble the following image:
+
+*![On a tablet, the application displays two CSS code snippets per row.](./Images/02-app-tablet.png)*/
+
+
+@media screen and (min-width: 992px) {
+   
+    main > section{
+        width: 33.33%;
+    }
+}
